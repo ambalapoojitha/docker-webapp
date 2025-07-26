@@ -10,7 +10,5 @@ services:
     image: ambalapoojitha/ourproject:app
     ports:
       - "1234:8080"
-   depends_on:
-       - devopsdb
-
-  
+    depends_on:
+      - devopsdb
