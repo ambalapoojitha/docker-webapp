@@ -4,7 +4,7 @@ services:
   devopsdb:
     image: ambalapoojitha/ourproject:db
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   application:
     image: ambalapoojitha/ourproject:app
